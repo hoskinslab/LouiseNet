@@ -8,7 +8,7 @@ import sys
 
 # Other Modules
 from PIL import ImageTk, Image
-from PISA_main_class import *
+from LouiseNert_backend import *
 import networkx as nx
 import matplotlib.pyplot as plt
 import pandas as pd
