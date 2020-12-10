@@ -22,7 +22,9 @@ Chain ID will generate an edgelist labeled by the letters denoted for PDB chains
 2.a Select Structure File: Users should upload the PDB file. 
 2.b Select Mapping File: Users should upload a CSV format mapping file without a header, where  : 1st column should represent the Chain Name, and 2nd column represent the corresponding Chain ID in the PDB file.
 2.c Select Chrome Driver:  Select chrome driver that is up to date with the version of Google Chrome. For example: Chrome Driver 85.0.4183.87 will work for Google Chrome Version 85.0.4183.121 (download Chrome Driver at: https://chromedriver.chromium.org )
-3.	Structure Info: This panel asks users to enter the Structure (PDB) File Name for the output folder  and Chain ID  for the chain which would be used for residue level network analysis as defined in panel 1.a.
+3.	Structure Info: 
+------------
+This panel asks users to enter the Structure (PDB) File Name for the output folder  and Chain ID  for the chain which would be used for residue level network analysis as defined in panel 1.a.
 
 4.	Select Directory & Run: 
 ------------
