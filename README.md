@@ -5,7 +5,7 @@ To Run LouiseNet:
 
 for Win10: downlaod "LouiseNet_win_exe" and launch "LouiseNet.exe"
 
-for MacOS: (1)downlaod "LouiseNet_mac_app" (2) unzip the "LouiseNet.zip.000" (reconmend using "The Unarchiver"https://theunarchiver.com) (3) run Louiseznet and then (4) give LouiseNet access under System Preferences/Security & Privacy
+for MacOS: (1)downlaod "LouiseNet_mac_app" (2) unzip the "LouiseNet.zip.000" (rrecommend using "The Unarchiver"https://theunarchiver.com) (3) run Louiseznet and then (4) give LouiseNet access under System Preferences/Security & Privacy
 
 1.	Options:
 ------------
