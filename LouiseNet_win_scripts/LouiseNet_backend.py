@@ -89,14 +89,24 @@ class PISA_Protein:
             if len(str(chain_only_df.iloc[i, 2])) != 1 or len(str(chain_only_df.iloc[i, 7])) != 1:
                 list_to_remove.append(i)
         chain_only_df = chain_only_df.drop(list_to_remove, axis=0)
-        chain_only_df.columns = ['ID', '', 'Chain 1', 'Number of Interfacing Atoms',
-                           'Number of Interfacing Residues', 'Surface Area', 'Unnamed: 6',
-                           'Chain 2', 'Number of Interfacing Atoms.1', 'Unnamed: 9',
-                           'Number of Interfacing Residues.1', 'Interface Area',
-                           'Delta G(kal/mol)', 'Delta G (p value)', 'Number of Potential Hydrogen Bonds',
-                           ' Number of Potential Salt Bridges',
-                           'Number of Potential Disulfide Bonds',
-                           'Complexation Significance Score']
+        if len(chain_only_df.columns) == 22:
+            chain_only_df.columns = ['ID', '', 'Chain 1', 'Number of Interfacing Atoms',
+                            'Number of Interfacing Residues', 'Surface Area', 'Unnamed: 6',
+                            'Chain 2','x', 'y', 'z', 'Sym.ID', 'Number of Interfacing Atoms.1', 'Unnamed: 9',
+                             'Number of Interfacing Residues.1', 'Interface Area',
+                            'Delta G(kal/mol)', 'Delta G (p value)', 'Number of Potential Hydrogen Bonds',
+                            ' Number of Potential Salt Bridges',
+                            'Number of Potential Disulfide Bonds',
+                            'Complexation Significance Score']
+        elif len(chain_only_df.columns) == 18:
+            chain_only_df.columns = ['ID', '', 'Chain 1', 'Number of Interfacing Atoms',
+                            'Number of Interfacing Residues', 'Surface Area', 'Unnamed: 6',
+                            'Chain 2', 'Number of Interfacing Atoms.1', 'Unnamed: 9',
+                             'Number of Interfacing Residues.1', 'Interface Area',
+                            'Delta G(kal/mol)', 'Delta G (p value)', 'Number of Potential Hydrogen Bonds',
+                            ' Number of Potential Salt Bridges',
+                            'Number of Potential Disulfide Bonds',
+                            'Complexation Significance Score']
         chain_only_df.to_csv(
             self.main_interaction_file_name, header=True, index=None)
         mapping_df = pd.read_csv(self.mapping_file_path, header=None)
