@@ -3,9 +3,7 @@ LousieNet automates the process of extracting interactions among different compo
 
 To Run LouiseNet:
 
-for Win10: downlaod "LouiseNet_win_exe" and launch "LouiseNet.exe"
-
-for MacOS: (1)downlaod "LouiseNet_mac_app" with all of its zip files (2) unzip the "LouiseNet.zip.000" (recommend using "The Unarchiver"https://theunarchiver.com) (3) run Louiseznet and then (4) give LouiseNet access under System Preferences/Security & Privacy
+for Win10: downlaod "LouiseNet.exe" and launch "LouiseNet.exe"
 
 1.	Options:
 ------------
