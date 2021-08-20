@@ -3,7 +3,7 @@ LousieNet automates the process of extracting interactions among different compo
 
 To Run LouiseNet:
 
-for Win10: downlaod "LouiseNet.exe" and launch "LouiseNet.exe"
+for Win10: download "LouiseNet.exe" and launch "LouiseNet.exe"
 
 1.	Options:
 ------------
