@@ -5,6 +5,8 @@ To Run LouiseNet:
 
 for Win10: download "LouiseNet.exe" and launch "LouiseNet.exe"
 
+NOTE: For an instructional video, visit https://uwmadison.box.com/v/LouiseNetVideos
+
 1.	Options:
 ------------
 LouiseNet allows users to select one of the network types under options 1.a panel.
