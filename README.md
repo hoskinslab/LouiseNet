@@ -53,7 +53,7 @@ Network analysis calculates the topological network parameters of the network su
 !!! Do not move the output folder until everything is finished running!!!
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Installation Instructions for MacOS
+INSTALLATION INSTRUCTIONS FOR MACOS/PYTHON
 
 1. Python 3.9 and pip (required to install other python libraries) installation
 ------------
