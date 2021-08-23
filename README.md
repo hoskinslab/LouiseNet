@@ -80,7 +80,7 @@ PIL
 				
 				5) pip3 install matplotlib
 				
-				6) sudo pip install pillow
+				6) sudo pip3 install pillow
 
 2. Run script
 ------------
