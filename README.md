@@ -70,10 +70,15 @@ Matplotlib
 PIL
 			For each required package please go to terminal and type the following:
 				1) pip3 install beautifulsoup4
+				
 				2) pip3 install selenium
+				
 				3) pip3 install pandas
+				
 				4) pip3 install networkx
+				
 				5) pip3 install matplotlib
+				
 				6) sudo pip install pillow
 
 2. Run script
