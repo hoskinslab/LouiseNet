@@ -4,8 +4,11 @@ LousieNet automates the process of extracting interactions among different compo
 To Run LouiseNet:
 
 for Win10: download "LouiseNet.exe" and launch "LouiseNet.exe"
+for MacOS: LouiseNet will need to be run from a terminal window using Python, instructions are below. Note that the MacOS version is only compatible with PDB/CIF files from cryo-EM data (no crystallographic symmetry information). The Windows version can accept structural files determined from either cryo-EM or crystallographic data.
 
-NOTE: For an instructional video, visit https://uwmadison.box.com/v/LouiseNetVideos
+IMPORTANT: The mapping file must be in .csv format! See "example.csv" for an example. If you use the spliceosome example files, make sure that the files are .csv (they may need to be opened in Excel and saved in .csv format). 
+
+NOTE: For instructional videos for both Win10 and MacOS/Python, visit https://uwmadison.box.com/v/LouiseNetVideos
 
 1.	Options:
 ------------
@@ -47,3 +50,39 @@ This panel will allow users to plot the protein- protein interaction network der
 Network analysis calculates the topological network parameters of the network such as average degree, average clustering coefficient, and average shortest path length. Additionally, three types of centralities (degree, eigenvector, and betweenness) are calculated for each node in a network. The csv output file containing network parameters, and centralities values are saved in the user-specified output folder.
 
 !!! Do not move the output folder until everything is finished running!!!
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Installation Instructions for MacOS
+
+1. Python 3.9 and pip (required to install other python libraries) installation
+------------
+Download and install python3.9: https://www.python.org/ftp/python/3.9.6/python-3.9.6-macosx10.9.pkg 
+Install pip via terminal
+type and run:  python -m ensurepip --upgrade
+
+Install required packages:
+BeautifulSoup
+Selenium
+Pandas
+Networkx
+Matplotlib
+PIL
+			For each required package please go to terminal and type the following:
+				1) pip3 install beautifulsoup4
+				2) pip3 install selenium
+				3) pip3 install pandas
+				4) pip3 install networkx
+				5) pip3 install matplotlib
+				6) sudo pip install pillow
+
+2. Run script
+------------
+Make sure all three scripts (CustomTkinterWidgets, LouiseNet_backend, and run_me) and the img folder are all in the same folder
+Find the script path of run_me.py
+Right click on the “run_me.py” file
+Press and hold option, then the option “copy ’run_me.py ’’ as pathname” will appear 
+Click on it to copy pathname
+Run script via terminal
+Type “python3 (insert scriptpath)”
+Run the script
+
