@@ -69,6 +69,7 @@ Networkx
 Matplotlib
 PIL
 			For each required package please go to terminal and type the following:
+			
 				1) pip3 install beautifulsoup4
 				
 				2) pip3 install selenium
