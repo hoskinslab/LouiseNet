@@ -4,6 +4,7 @@ LousieNet automates the process of extracting interactions among different compo
 To Run LouiseNet:
 
 for Win10: download "LouiseNet.exe" and launch "LouiseNet.exe"
+
 for MacOS: LouiseNet will need to be run from a terminal window using Python, instructions are below. Note that the MacOS version is only compatible with PDB/CIF files from cryo-EM data (no crystallographic symmetry information). The Windows version can accept structural files determined from either cryo-EM or crystallographic data.
 
 IMPORTANT: The mapping file must be in .csv format! See "example.csv" for an example. If you use the spliceosome example files, make sure that the files are .csv (they may need to be opened in Excel and saved in .csv format). 
